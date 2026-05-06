@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Autonomous Listening-Based Synthesizer Control with Reinforcement Learning for Live Sound Matching - Vincenzo Madaghiele, Stefano Fasciani, Tejaswinee Kelkar, Çağrı Erdem | University of Oslo</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -186,53 +186,6 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 
   <main id="main-content">
   <section class="hero">
@@ -241,23 +194,24 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Autonomous Listening-Based Synthesizer Control with Reinforcement Learning for Live Sound Matching</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://www.vmad.me/" target="_blank">Vincenzo Madaghiele</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://stefanofasciani.com/" target="_blank">Stefano Fasciani</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://tejaswinee.com/" target="_blank">Tejaswinee Kelkar</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.cagrierdem.net/" target="_blank">Çağrı Erdem</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Department of Musicology, University of Oslo<br>New Interfaces for Musical Expression (NIME) 2026</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -273,20 +227,9 @@
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/vincenzomadaghiele/RL-synth-control" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -295,16 +238,6 @@
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -319,13 +252,10 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+      <img src="RLdiagram5.png" alt="teaser_image" loading="lazy"/>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      Diagram illustrating the data flow between the user and the artificial agent. The artificial agent modulates the parameters of a sound synthesizer to match the incoming sound <i>x(t)</i> from a live performer with the synthesized sound <i>y(t)</i> produced by the agent-controlled synthesizer. To avoid latency, during live performance the system employs a long-short term memory neural network to predict the descriptors <b>D</b><i>(s_x[m])</i> based on the previous <i>K</i> windows. Predicted descriptors are used to compute real-time inference during performance.
       </h2>
     </div>
   </div>
@@ -341,7 +271,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+        In this paper, we build on a previously proposed method for training an artificial agent that performs live control of sound synthesizers, using reinforcement learning and machine-listening to match the sound of a live musician. The agent listens to an incoming live audio stream and attempts to match its sound according to specific audio descriptors by controlling the parameters of an arbitrary synthesizer. We introduce a reinforcement‑learning model with a continuous action space that integrates sound synthesis during training and live performance. We propose five complementary reward functions for matching target sounds, and evaluate their effectiveness in three scenarios: in‑domain matching of synthesized target sounds, out‑of‑domain matching of synthesized targets, and out‑of‑domain matching using a corpus of musician‑recorded audio. Finally, we compare the proposed reward functions across these scenarios, we discuss a live implementation and we present the results of quantitative experiments evaluating the matching task.
           </p>
         </div>
       </div>
@@ -351,51 +281,11 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
@@ -415,58 +305,168 @@
 <!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
+<section class="hero is-small is-light">
+    <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
+
+      <h2 class="title is-3">In-domain</h2>
+      <div class="columns is-centered has-text-centered">
+
+    <table style="width:100%">
+      <tr>
+        <th>Source</th>
+        <th>Target</th>
+        <th>Example 1</th>
+        <th>Example 2</th>
+        <th>Example 3</th>
+      </tr>
+      <tr>
+        <td>Tone generator</td>
+        <td>Tone generator</td>
+        <td><audio src="00_sounds/in-domain/Theremin-Theremin1.wav" controls></audio></td>
+        <td><audio src="00_sounds/in-domain/Theremin-Theremin2.wav" controls></audio></td>
+        <td><audio src="00_sounds/in-domain/Theremin-Theremin3.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>FM</td>
+        <td>FM</td>
+        <td><audio src="00_sounds/in-domain/FM-FM1.wav" controls></audio></td>
+        <td><audio src="00_sounds/in-domain/FM-FM2.wav" controls></audio></td>
+        <td><audio src="00_sounds/in-domain/FM-FM3.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Granular</td>
+        <td>Granular</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Benjolin</td>
+        <td>Benjolin</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+    </table><br><br>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
+<section class="hero is-small">
+    <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
 
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+      <h2 class="title is-3">Out-of-domain with synthesizer as input</h2><br>
+      <div class="columns is-centered has-text-centered">
+
+    <table style="width:100%">
+      <tr>
+        <th>Source</th>
+        <th>Target</th>
+        <th>Example 1</th>
+        <th>Example 2</th>
+        <th>Example 3</th>
+      </tr>
+      <tr>
+        <td>Tone generator</td>
+        <td>FM</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Granular</td>
+        <td>Tone generator</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Benjolin</td>
+        <td>FM</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>FM</td>
+        <td>Benjolin</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Granular</td>
+        <td>Benjolin</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Benjolin</td>
+        <td>Granular</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+    </table>
+      </div><br><br>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small is-light">
+    <div class="hero-body">
+    <div class="container">
+
+      <h2 class="title is-3">Out-of-domain with audio corpus as input</h2>
+      <div class="columns is-centered has-text-centered">
+    <table style="width:100%">
+      <tr>
+        <th>Source</th>
+        <th>Target</th>
+        <th>Example 1</th>
+        <th>Example 2</th>
+        <th>Example 3</th>
+      </tr>
+      <tr>
+        <td>Bass</td>
+        <td>Tone generator</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Bass</td>
+        <td>FM</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Guitar</td>
+        <td>Granular</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+      <tr>
+        <td>Drums</td>
+        <td>Benjolin</td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+        <td><audio src="Benjolin-Granular.wav" controls></audio></td>
+      </tr>
+    </table>
+
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
 
 
 
@@ -480,13 +480,17 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>
+    @inproceedings{madagNIME26,
+     address = {London, United Kingdom},
+     title = {Autonomous Listening-Based Synthesizer Control with Reinforcement Learning for Live Sound Matching},
+     author = {Madaghiele, Vincenzo and Fasciani, Stefano and Kelkar, Tejaswinee and Erdem, Çağrı},
+     booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+     track = {Paper},
+     year = {2026}
+    }
+      </code>
+      </pre>
     </div>
 </section>
 <!--End BibTex citation -->
